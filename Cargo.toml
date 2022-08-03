@@ -1,0 +1,17 @@
+[package]
+name = "forest_fire"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+lto = "fat"
+strip = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+console = "0.15.1"
+image = "0.24.3"
+rand = "0.8.5"
+ron = "0.7.1"
+serde = { version = "1.0.140", features = ["derive"] }

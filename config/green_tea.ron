@@ -1,0 +1,17 @@
+Configuration(
+    frames: 500,
+    frame_rate: 25,
+    output_path: "green_tea.gif",
+    resolution: (960, 540),
+    cell_size: 4,
+    alive_fraction: 0.5,
+    sprout_probability: 0.005,
+    random_sprout_probability: 0.00075,
+    growth_rate: 0.001,
+    inflammability: 0.075,
+    self_ignition_probability: 0.000005,
+    burning_rate: 0.075,
+    forest_color_palette: [(88, 227, 21), (104, 221, 4), (48, 175, 32), (185, 242, 10), (20, 180, 78), (3, 71, 84)],
+    fire_color: (255, 28, 28),
+    ground_color: (2, 12, 5),
+)

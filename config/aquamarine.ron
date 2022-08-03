@@ -1,0 +1,17 @@
+Configuration(
+    frames: 500,
+    frame_rate: 25,
+    output_path: "aquamarine.gif",
+    resolution: (960, 540),
+    cell_size: 2,
+    alive_fraction: 0.3,
+    sprout_probability: 0.005,
+    random_sprout_probability: 0.00075,
+    growth_rate: 0.002,
+    inflammability: 0.2,
+    self_ignition_probability: 0.000005,
+    burning_rate: 0.08,
+    forest_color_palette: [(45, 191, 182), (4, 165, 154), (14, 164, 117), (46, 200, 208), (32, 166, 202), (5, 185, 141)],
+    fire_color: (255, 68, 219),
+    ground_color: (3, 9, 14),
+)
