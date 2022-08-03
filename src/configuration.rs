@@ -59,7 +59,7 @@ pub struct Configuration {
     #[serde(default = "Configuration::default_forest_color_palette")]
     pub forest_color_palette: Vec<(u8, u8, u8)>,
 
-    /// Kolor płomienia. Paramter opcjonalny.
+    /// Kolor płomienia. Parametr opcjonalny.
     #[serde(default = "Configuration::default_fire_color")]
     pub fire_color: (u8, u8, u8),
 
