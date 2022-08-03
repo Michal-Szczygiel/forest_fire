@@ -1,6 +1,8 @@
 # Symulacja - pożar lasu:
 
-Katalog "**bin**" zawiera prekompilowaną wersję programu dla Windowsa i Linuxa (x86-64). Do uruchomienia programu niezbędny jest pliki konfiguracyjny w formacie [.ron](https://github.com/ron-rs/ron). Przykładowe pliki znajdują się w katalogu "**config**". Pełne wywołanie programu z poziomu konsoli w przypadku systemu Windows ma postać: **./forest_fire.exe config.ron**. Wynikiem programu jest animacja w formacie GIF.
+Katalog "**bin**" zawiera prekompilowaną wersję programu dla Windowsa i Linuxa (x86-64). Do uruchomienia programu niezbędny jest pliki konfiguracyjny w formacie [.ron](https://github.com/ron-rs/ron). Przykładowe pliki znajdują się w katalogu "**config**". Pełne wywołanie programu z poziomu konsoli w przypadku systemu Windows ma postać: **./forest_fire.exe config.ron**. Wynikiem działania programu jest animacja w formacie GIF.
+
+Parametry symulacji są opisane w przykładowych plikach konfiguracyjnych (patrz katalog "**config**").
 
 # Przykłady:
 
