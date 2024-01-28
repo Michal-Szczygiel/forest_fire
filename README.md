@@ -2,7 +2,10 @@
 
 The '**bin**' directory contains precompiled versions of the program for Windows and Linux (x86-64 architecture). To run the program, you need a configuration file in the [.ron](https://github.com/ron-rs/ron) format. Sample files are located in the '**config**' directory. The full program invocation from the console on Windows is: ./forest_fire.exe config.ron. The result of the program is an animation in the GIF format.
 
-``` json
+### Example configuration file:
+#### '**green_tea.ron**'
+
+``` ron
 Configuration(
     // Number of simulation frames
     frames: 500,
