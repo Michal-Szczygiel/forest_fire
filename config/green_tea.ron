@@ -1,49 +1,49 @@
 Configuration(
-    //Liczba klatek symulacji
+    // Number of simulation frames
     frames: 500,
 
-    // Liczba klatek na sekundę animacji
+    // The number of frames per second of the animation
     frame_rate: 25,
 
-    // Ścieżka do pliku wynikowego. Formatem wynikowym jest GIF więc
-    // nazwa pliku powinna mieć rozszerzenie .gif
+    // Path to the output file. The resulting format is GIF,
+    // so the file name should have the extension .gif
     output_path: "green_tea.gif",
 
-    // Rozdzielczość generowanej animacji: (pozioma, pionowa)
+    // Resolution of generated animation: (horizontal, vertical)
     resolution: (960, 540),
 
-    // Wielkość pojedynczej komórki w pikselach. Ten parametr musi być tak
-    // dobrany aby dzielił wartość rozdzielczości poziomej i pionowej bez reszty
+    // The size of a single cell in pixels. This parameter must be selected in such a way 
+    // that it divides the horizontal and vertical resolution values without any remainder
     cell_size: 4,
 
-    // Frakcja komórek żywych na początku symulacji. Parametr opcjonalny
+    // Fraction of alive cells at the beginning of the simulation. Optional parameter
     alive_fraction: 0.5,
 
-    // Prawdopodobieństwo wykiełkowania (przy kontakcie z innymi drzewami). Parametr opcjonalny
+    // Probability of germination (when in contact with other trees). Optional parameter
     sprout_probability: 0.005,
 
-    // Prawdopodobieństwo losowego wykiełkowania. Parametr opcjonalny
+    // Probability of random germination. Optional parameter
     random_sprout_probability: 0.00075,
 
-    // Szybkość wzrostu drzew. Parametr opcjonalny
+    // Tree growth speed. Optional parameter
     growth_rate: 0.001,
 
-    // Łatwopalność drzew, określa jak łatwo drzewa zajmują się ogniem od
-    // innych drzew. Parametr opcjonalny
+    // The flammability of trees determines how easily trees catch fire from other trees. 
+    // Optional parameter
     inflammability: 0.075,
 
-    // Prawdopodobieństwo samozapłonu. Parametr opcjonalny
+    // Likelihood of spontaneous combustion. Optional parameter
     self_ignition_probability: 0.000005,
 
-    // Szybkość spalania. Parametr opcjonalny
+    // Burning rate. Optional parameter
     burning_rate: 0.075,
 
-    // Paleta kolorystyczna lasu. Parametr opcjonalny
+    // The color palette of the forest. Optional parameter
     forest_color_palette: [(88, 227, 21), (104, 221, 4), (48, 175, 32), (185, 242, 10), (20, 180, 78), (3, 71, 84)],
     
-    // Kolor płomienia. Parametr opcjonalny
+    // The color of the flame. Optional parameter
     fire_color: (255, 28, 28),
 
-    // Kolor podłoża. Parametr opcjonalny
+    // Ground color. Optional parameter
     ground_color: (2, 12, 5),
 )
